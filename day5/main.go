@@ -90,7 +90,7 @@ func part2(alm Almanac) {
 
 		for i := 0; i < len(alm.seeds); i += 2 {
 			if alm.seeds[i] < s && s < alm.seeds[i]+alm.seeds[i+1] {
-				fmt.Println(location)
+				fmt.Println("Part 2:", location)
 				return
 			}
 		}
